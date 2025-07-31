@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "timestamp": "2025-07-31T08:25:57.492Z",
+    "algorithm": "K-means with competitor avoidance",
+    "totalCompetitors": 8058,
+    "totalPopulationAreas": 28203,
+    "optimizedLocations": 10
+  },
+  "summary": {
+    "totalPopulationCaptured": 12894336,
+    "averageCompetitorDistance": 0.0497,
+    "totalOptimizationScore": 14904476,
+    "estimatedAnnualRevenue": 644716800
+  },
+  "locations": [
+    {
+      "rank": 1,
+      "coordinates": {
+        "latitude": 51.573128,
+        "longitude": -0.279355
+      },
+      "metrics": {
+        "populationCaptured": 3142897,
+        "competitorDistance": 0.007814,
+        "optimizationScore": 3265696,
+        "estimatedAnnualRevenue": 157144850
+      },
+      "businessInsights": {
+        "marketPotential": "High",
+        "competitiveAdvantage": "Weak",
+        "priority": "High"
+      }
+    },
+    {
+      "rank": 2,
+      "coordinates": {
+        "latitude": 53.507911,
+        "longitude": -2.570012
+      },
+      "metrics": {
+        "populationCaptured": 1658017,
+        "competitorDistance": 0.02852,
+        "optimizationScore": 1894449,
+        "estimatedAnnualRevenue": 82900850
+      },
+      "businessInsights": {
+        "marketPotential": "High",
+        "competitiveAdvantage": "Moderate",
+        "priority": "High"
+      }
+    },
+    {
+      "rank": 3,
+      "coordinates": {
+        "latitude": 51.421004,
+        "longitude": 0.300161
+      },
+      "metrics": {
+        "populationCaptured": 1418895,
+        "competitorDistance": 0.031237,
+        "optimizationScore": 1640502,
+        "estimatedAnnualRevenue": 70944750
+      },
+      "businessInsights": {
+        "marketPotential": "High",
+        "competitiveAdvantage": "Moderate",
+        "priority": "High"
+      }
+    },
+    {
+      "rank": 4,
+      "coordinates": {
+        "latitude": 52.947293,
+        "longitude": -0.978014
+      },
+      "metrics": {
+        "populationCaptured": 1374180,
+        "competitorDistance": 0.021421,
+        "optimizationScore": 1521358,
+        "estimatedAnnualRevenue": 68709000
+      },
+      "businessInsights": {
+        "marketPotential": "High",
+        "competitiveAdvantage": "Moderate",
+        "priority": "Medium"
+      }
+    },
+    {
+      "rank": 5,
+      "coordinates": {
+        "latitude": 52.501699,
+        "longitude": -1.905592
+      },
+      "metrics": {
+        "populationCaptured": 1389815,
+        "competitorDistance": 0.007846,
+        "optimizationScore": 1444334,
+        "estimatedAnnualRevenue": 69490750
+      },
+      "businessInsights": {
+        "marketPotential": "High",
+        "competitiveAdvantage": "Weak",
+        "priority": "Medium"
+      }
+    },
+    {
+      "rank": 6,
+      "coordinates": {
+        "latitude": 54.097563,
+        "longitude": -1.535496
+      },
+      "metrics": {
+        "populationCaptured": 1152670,
+        "competitorDistance": 0.031204,
+        "optimizationScore": 1332511,
+        "estimatedAnnualRevenue": 57633500
+      },
+      "businessInsights": {
+        "marketPotential": "High",
+        "competitiveAdvantage": "Moderate",
+        "priority": "Medium"
+      }
+    },
+    {
+      "rank": 7,
+      "coordinates": {
+        "latitude": 51.211218,
+        "longitude": -1.300466
+      },
+      "metrics": {
+        "populationCaptured": 934731,
+        "competitorDistance": 0.040735,
+        "optimizationScore": 1125114,
+        "estimatedAnnualRevenue": 46736550
+      },
+      "businessInsights": {
+        "marketPotential": "Medium",
+        "competitiveAdvantage": "Moderate",
+        "priority": "Medium"
+      }
+    },
+    {
+      "rank": 8,
+      "coordinates": {
+        "latitude": 50.804855,
+        "longitude": -4.24386
+      },
+      "metrics": {
+        "populationCaptured": 461005,
+        "competitorDistance": 0.206003,
+        "optimizationScore": 935847,
+        "estimatedAnnualRevenue": 23050250
+      },
+      "businessInsights": {
+        "marketPotential": "Low",
+        "competitiveAdvantage": "Strong",
+        "priority": "Low"
+      }
+    },
+    {
+      "rank": 9,
+      "coordinates": {
+        "latitude": 51.447831,
+        "longitude": -2.800297
+      },
+      "metrics": {
+        "populationCaptured": 794381,
+        "competitorDistance": 0.03141,
+        "optimizationScore": 919138,
+        "estimatedAnnualRevenue": 39719050
+      },
+      "businessInsights": {
+        "marketPotential": "Medium",
+        "competitiveAdvantage": "Moderate",
+        "priority": "Low"
+      }
+    },
+    {
+      "rank": 10,
+      "coordinates": {
+        "latitude": 52.395455,
+        "longitude": 0.662881
+      },
+      "metrics": {
+        "populationCaptured": 567745,
+        "competitorDistance": 0.090809,
+        "optimizationScore": 825527,
+        "estimatedAnnualRevenue": 28387250
+      },
+      "businessInsights": {
+        "marketPotential": "Medium",
+        "competitiveAdvantage": "Strong",
+        "priority": "Low"
+      }
+    }
+  ],
+  "algorithm": {
+    "samplingStrategy": "All high-population (400+) areas + 5% random sample of regular areas",
+    "optimizationMethod": "Population-weighted K-means with competitor avoidance",
+    "scoringFormula": "Population × (1 + CompetitorDistance × 5)",
+    "convergenceThreshold": 0.001
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "location-optimization-system",
+  "version": "1.0.0",
+  "description": "Production-ready location optimization using K-means clustering with competitor avoidance",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "start-frontend": "cd my-react-router-app && npm run dev",
+    "dev": "tsc && node dist/src/index.js",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "location-optimization",
+    "k-means",
+    "clustering",
+    "business-intelligence",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "^5.0.0"
+  }
+}
